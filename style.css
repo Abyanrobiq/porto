@@ -474,7 +474,25 @@ font-size: 12px;
 color: #604333;
 font-weight: bold;
 }
+.project-image.project-one {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.project-screenshot {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+}
+.project-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 /* =========================
 CONTACT
 ========================= */
